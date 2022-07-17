@@ -31,7 +31,7 @@
  * Plugin: 
  * require_once dirname( __FILE__ ) . '/path/to/class-tgm-plugin-activation.php';
  */
-require_once get_template_directory() . '/functions/class-tgm-plugin-activation.php';
+require_once get_template_directory() . '/lib/class-tgm-plugin-activation.php';
 
 add_action( 'tgmpa_register', 'wesoftpress_register_required_plugins' );
 
